@@ -15,8 +15,9 @@ function getAssetPath(filename) {
 }
 
 const videoSources = {
-    create: getAssetPath('create.mp4'),
-    mointer: getAssetPath('mointer.mp4')
+    create: getAssetPath('Create.mp4'),
+    mointer: getAssetPath('mointer.mp4'),
+    deploy: getAssetPath('Deploy.mp4')
 };
 
 const imageUrls = {
