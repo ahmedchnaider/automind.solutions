@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Effortlessly create, deploy, and manage AI agents with our cutting-edge SaaS platform. Transform your business with AI-driven solutions." />
+        <meta name="author" content="AI Agent Platform" />
+        <title>AI Agent Platform - Transform Your Business with AI</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />  
+        <link href="css/style2.css" rel="stylesheet" />
+        <link href="css/styles2.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    </head>
+    <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="74">
+        <!-- Floating Video Container -->
+        <div id="floating-video-container" class="floating-video-container">
+            <div class="floating-video-wrapper">
+                <video id="floating-video" muted playsinline>
+                    <source src="assets/img/demo.mp4" type="video/mp4">
+                </video>
+                <button id="close-floating-video" class="close-floating-video">×</button>
+            </div>
+        </div>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="#page-top">
+                    <img src="assets/img/logo.png" alt="AI Agent Platform Logo" id="navbar-logo" class="logo-image" style="height: 45px;" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#product">Product</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#integrations">Integrations</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#capabilities">Capabilities</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#solutions">Solutions</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
+                    </ul>
+                </div>
+                <!-- Single Free Demo button -->
+                <div class="d-flex">
+                    <a href="https://solutions.tixaeagents.ai/eu/prototype/nhxcjza5hhmlkwli" target="_blank" class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0">
+                        <span class="d-flex align-items-center">
+                            <i class="bi-play-circle me-2"></i>
+                            <span class="small">Book Free Demo</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead header-->
+        <header class="masthead">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <!-- Updated Masthead text -->
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <h1 class="display-1 lh-1 mb-3">AI Agents for Every Platform</h1>
+                            <p class="lead fw-normal text-muted mb-5">Deploy intelligent AI agents across Instagram, Facebook, WhatsApp, Discord, web, and phone calls. Enhance communication with email and SMS capabilities.</p>
+                            <div class="d-flex flex-column flex-lg-row align-items-center">
+                                <button class="btn btn-primary btn-lg px-5 py-3 rounded-pill" onclick="toggleChatWidget()">
+                                    <i class="bi bi-mic-fill me-2"></i>
+                                    Speak to Agent
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Masthead device mockup feature-->
+                        <div class="masthead-device-mockup">
+                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                        <stop class="gradient-start-color" offset="0%"></stop>
+                                        <stop class="gradient-end-color" offset="100%"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="50"></circle></svg
+                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
+                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
+                            <div class="device-wrapper">
+                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                    <div class="screen bg-black">
+                                        <div class="video-container" style="position: relative;">
+                                            <video id="heroVideo" playsinline muted style="max-width: 100%; height: 100%">
+                                                <source src="assets/img/hero.mp4" type="video/mp4" />
+                                            </video>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Quote/testimonial aside-->
+        <aside class="text-center bg-gradient-primary-to-secondary">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="h2 fs-1 text-white mb-4">"A game-changer for businesses looking to integrate AI seamlessly!"</div>
+                    
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- Product Section -->
+        <section id="product" class="py-5">
+            <div class="container px-5">
+                <!-- How It Works Section -->
+                <div class="row gx-5 justify-content-center mb-5">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="font-alt mb-4">How It Works</h2>
+                        <p class="lead fw-normal text-muted mb-5">Create and deploy AI under 10 minutes with our simple 3-step process</p>
+                    </div>
+                </div>
+                <div class="row gx-5 justify-content-center mb-5">
+                    <div class="col-md-4 mb-5 mb-md-0">
+                        <div class="card h-100 shadow border-0">
+                            <div class="card-body text-center p-4 p-lg-5">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-person"></i></div>
+                                <h2 class="font-alt">1. Create Persona</h2>
+                                <p class="mb-0">Choose your AI agent's personality from our templates to match your brand.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5 mb-md-0">
+                        <div class="card h-100 shadow border-0">
+                            <div class="card-body text-center p-4 p-lg-5">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-book"></i></div>
+                                <h2 class="font-alt">2. Add Knowledge</h2>
+                                <p class="mb-0">Equip your AI with relevant information and data to handle inquiries effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow border-0">
+                            <div class="card-body text-center p-4 p-lg-5">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-cloud-upload"></i></div>
+                                <h2 class="font-alt">3. Deploy</h2>
+                                <p class="mb-0">Launch your AI agent across multiple platforms with just a few clicks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Designed for Any Business Model Section -->
+                <div class="row gx-5 justify-content-center mt-5">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="font-alt mb-4">Designed for Any Business Model</h2>
+                        <p class="lead fw-normal text-muted mb-5">Our AI agents are versatile and adaptable to various business types and online platforms</p>
+                    </div>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-md-2 col-sm-4 mb-5 text-center business-model">
+                        <i class="bi bi-shop fs-1 mb-3 business-model-icon" data-model="dropshipper"></i>
+                        <h5 class="font-alt business-model-text" data-model="dropshipper">Dropshippers</h5>
+                    </div>
+                    <div class="col-md-2 col-sm-4 mb-5 text-center business-model">
+                        <i class="bi bi-collection fs-1 mb-3 business-model-icon" data-model="themepages"></i>
+                        <h5 class="font-alt business-model-text" data-model="themepages">Theme Pages</h5>
+                    </div>
+                    <div class="col-md-2 col-sm-4 mb-5 text-center business-model">
+                        <i class="bi bi-person-badge fs-1 mb-3 business-model-icon" data-model="influencer"></i>
+                        <h5 class="font-alt business-model-text" data-model="influencer">Influencers</h5>
+                    </div>
+                    <div class="col-md-2 col-sm-4 mb-5 text-center business-model">
+                        <i class="bi bi-people fs-1 mb-3 business-model-icon" data-model="community"></i>
+                        <h5 class="font-alt business-model-text" data-model="community">Community Builders</h5>
+                    </div>
+                    <div class="col-md-2 col-sm-4 mb-5 text-center business-model">
+                        <i class="fab fa-tiktok fs-1 mb-3 business-model-icon" data-model="tiktok"></i>
+                        <h5 class="font-alt business-model-text" data-model="tiktok">TikTok Pages</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add this after the Product section and before the next section -->
+        <section id="chat-demo" class="py-5 fade-transition" 
+                 style="background: url('assets/img/dropshippers.png') no-repeat center center; 
+                        background-size: cover; 
+                        position: relative;
+                        width: 100%;">
+            <!-- Chat Widget with Conversations List -->
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card shadow border-0">
+                        <div class="row g-0">
+                            <!-- Conversations List Panel -->
+                            <div class="col-md-4 border-end">
+                                <div class="p-3 border-bottom">
+                                    <h6 class="mb-0 d-flex justify-content-between align-items-center">
+                                        AI Agent Platform
+                                        <i class="fas fa-edit text-muted"></i>
+                                    </h6>
+                                </div>
+                                <div class="conversations-list">
+                                    <!-- Active AI Assistant - This will change dynamically -->
+                                    <div class="conversation-item p-3 border-bottom active">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/img/logo.png" alt="AI Agent" id="primaryAgentImage" class="rounded-circle" style="width: 56px; height: 56px;">
+                                            <div class="ms-3">
+                                                <h6 class="mb-1" id="primaryAgentName">AI Assistant</h6>
+                                                <p class="text-muted small mb-0">Active now · <span class="text-primary">Primary</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Regular conversations -->
+                                    <div class="conversation-item p-3 border-bottom">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/img/user1.jpg" alt="User" class="rounded-circle" style="width: 56px; height: 56px;">
+                                            <div class="ms-3">
+                                                <h6 class="mb-1">Sarah Johnson</h6>
+                                                <p class="text-muted small mb-0">Sent you a message · 2m</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="conversation-item p-3 border-bottom">
+                                        <div class="d-flex align-items-center">
+                                            <div class="position-relative">
+                                                <img src="assets/img/user2.png" alt="User" class="rounded-circle" style="width: 56px; height: 56px;">
+                                                <span class="position-absolute bottom-0 end-0 bg-success rounded-circle" style="width: 14px; height: 14px; border: 2px solid white;"></span>
+                                            </div>
+                                            <div class="ms-3">
+                                                <h6 class="mb-1">Jhon Doe</h6>
+                                                <p class="text-muted small mb-0">Active now</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="conversation-item p-3 border-bottom">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/img/user3.jpg" alt="User" class="rounded-circle" style="width: 56px; height: 56px;">
+                                            <div class="ms-3">
+                                                <h6 class="mb-1">Kim Smith</h6>
+                                                <p class="text-muted small mb-0">Liked a message · 15m</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="conversation-item p-3 border-bottom">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/img/user4.jpg" alt="User" class="rounded-circle" style="width: 56px; height: 56px;">
+                                            <div class="ms-3">
+                                                <h6 class="mb-1">Nermine Johnson</h6>
+                                                <p class="text-muted small mb-0">Sent an attachment · 1h</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="conversation-item p-3 border-bottom">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/img/user5.png" alt="User" class="rounded-circle" style="width: 56px; height: 56px;">
+                                            <div class="ms-3">
+                                                <h6 class="mb-1">Alex Smith</h6>
+                                                <p class="text-muted small mb-0">Mentioned you in a story · 2h</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+
+                            <!-- Chat Area -->
+                            <div class="col-md-8">
+                                <!-- Instagram-style header -->
+                                <div class="card-header bg-white border-bottom p-3">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/img/logo.png" alt="AI Agent" class="rounded-circle" style="width: 40px; height: 40px;">
+                                            <div class="ms-3">
+                                                <h6 class="mb-0 font-alt" id="chatWidgetTitle">AI Agent</h6>
+                                                <small class="text-muted">AI Assistant · Active now</small>
+                                            </div>
+                                        </div>
+                                        <!-- Call and Info Icons -->
+                                        <div class="d-flex align-items-center">
+                                            <button class="btn btn-link text-dark p-2" data-bs-toggle="tooltip" title="Voice call">
+                                                <i class="fas fa-phone"></i>
+                                            </button>
+                                            <button class="btn btn-link text-dark p-2" data-bs-toggle="tooltip" title="Video call">
+                                                <i class="fas fa-video"></i>
+                                            </button>
+                                            <button class="btn btn-link text-dark p-2" data-bs-toggle="tooltip" title="Conversation info">
+                                                <i class="fas fa-info-circle"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body p-4" style="background-color: #FFFFFF;">
+                                    <div id="chatMessages" class="mb-4" style="height: 400px; overflow-y: auto;">
+                                        <!-- Chat messages will be inserted here -->
+                                    </div>
+                                    <!-- Instagram-style input area -->
+                                    <div class="input-group border rounded-pill bg-light">
+                                        <input type="text" id="userInput" class="form-control border-0 bg-light rounded-pill" placeholder="Message...">
+                                        <button class="btn text-primary px-3" type="button" id="sendMessage">
+                                            <i class="fas fa-paper-plane"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Integrations Section -->
+        <section id="integrations" class="py-5 bg-light">
+            <div class="container px-5">
+                <h2 class="font-alt text-center mb-5">Seamless Platform Integrations</h2>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="lead fw-normal text-muted mb-5 text-center">Our AI agents integrate effortlessly with popular platforms and communication channels:</p>
+                    </div>
+                </div>
+                <div class="row gx-5 justify-content-center mb-5">
+                    <div class="col-12 text-center">
+                        <img src="assets/img/integrations.png" class="img-fluid" alt="Platform Integrations">
+                    </div>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="lead fw-normal text-muted mb-5 text-center">Our AI agents also support phone calls, email, and SMS communications for comprehensive customer engagement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- Capabilities Section -->
+        <section id="capabilities" class="py-5">
+            <div class="container px-5">
+                <h2 class="font-alt text-center mb-5">Our Capabilities</h2>
+                
+                <!-- Horizontal Card -->
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <div class="card shadow border-0" style="min-height: 400px;">
+                            <div class="card-body p-0">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-6 p-5 d-flex flex-column justify-content-center">
+                                        <div class="mb-4">
+                                            <i class="fas fa-network-wired fa-3x text-primary mb-3 d-block"></i>
+                                            <h3 class="card-title font-alt">Omni-channel Chat</h3>
+                                        </div>
+                                        <p class="card-text">
+                                            Centralize all your multi-channel messages in one place.<br>
+                                            Seamlessly engage in sales, marketing, or service through:<br>
+                                            • Live Chat<br>
+                                            • Messenger, WhatsApp, Telegram<br>
+                                            • Instagram, Line, Email, WeChat<br>
+                                            Ensuring a unified customer experience across all platforms.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6 omnichannel-img-container">
+                                        <img src="assets/img/omnichannel.png" class="img-fluid rounded-end" alt="Omni-channel Chat">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div style="margin-top: 20px;"></div>
+                </div>
+                <!-- Vertical Cards -->
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100 shadow border-0" style="min-height: 300px;">
+                            <div class="card-body d-flex flex-column">
+                                <div class="text-center mb-3">
+                                    <img src="assets/img/languages.png" alt="Real-Time Translations" class="img-fluid capabilities-card-img mb-4">
+                                </div>
+                                <h3 class="card-title font-alt">Real-Time Translations</h3>
+                                <p class="card-text">Speak the client's language, even if it's not your native language. Our real-time translations enable you to communicate confidently with your clients and tap into international markets.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100 shadow border-0" style="min-height: 300px;">
+                            <div class="card-body d-flex flex-column">
+                                <div class="text-center mb-3">
+                                    <img src="assets/img/support.png" alt="Automatization Support" class="img-fluid capabilities-card-img mb-4">
+                                </div>
+                                <h3 class="card-title font-alt">Automatization</h3>
+                                <p class="card-text">Complete customer support in seconds, not hours. Reduce response times and increase efficiency by eliminating repetitive tasks with our built-in automation. Work smarter, not harder, so you can focus on growing your business.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Solutions Section -->
+         <section id="solutions" class="py-5">
+            <div class="container px-5">
+                <h2 class="font-alt text-center mb-5">AI Solutions for Every Channel</h2>
+                <div class="row gx-5">
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <img src="assets/img/meta.png" class="card-img-top" alt="Social Media Engagement">
+                            <div class="card-body">
+                                <h5 class="card-title font-alt mb-3">Social Media Engagement</h5>
+                                <p class="card-text">Boost your presence on Instagram and Facebook with AI-powered interactions and content management.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <img src="assets/img/customer.png" class="card-img-top" alt="Messaging Support">
+                            <div class="card-body">
+                                <h5 class="card-title font-alt mb-3">Messaging Support</h5>
+                                <p class="card-text">Provide instant customer support through WhatsApp and Discord with intelligent chatbots.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <img src="assets/img/webphone.png" class="card-img-top" alt="Web & Voice Assistance">
+                            <div class="card-body">
+                                <h5 class="card-title font-alt mb-3">Web & Voice Assistance</h5>
+                                <p class="card-text">Implement AI agents on your website and handle phone calls for seamless customer interactions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  <!-- Process Steps Section -->
+  <section class="py-5 bg-light">
+    <div class="container px-5">
+        <div class="row gx-5 justify-content-center mb-5">
+            <div class="col-lg-8 text-center">
+                <h2 class="font-alt mb-4">Our Process</h2>
+                <p class="lead fw-normal text-muted mb-5">Experience our streamlined approach to AI implementation</p>
+            </div>
+        </div>
+
+        <!-- Step 1: Create Agent -->
+        <div class="row gx-5 align-items-center mb-5">
+            <div class="col-lg-6">
+                <h2 class="display-4 lh-1 mb-4">01</h2>
+                <h3 class="font-alt mb-3">Create an Agent</h3>
+                <p class="lead fw-normal text-muted mb-5">Create and customize an agent for yourself or your client. Whether you're designing a Voice agent on Vapi or Text agent, we got you covered.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="video-container rounded-4 overflow-hidden">
+                    <video autoplay loop muted playsinline class="img-fluid">
+                        <source src="assets/img/create.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 2: Deploy -->
+        <div class="row gx-5 align-items-center mb-5">
+            <div class="col-lg-6 order-lg-2">
+                <h2 class="display-4 lh-1 mb-4">02</h2>
+                <h3 class="font-alt mb-3">Deploy</h3>
+                <p class="lead fw-normal text-muted mb-5">Launch your AI agent across multiple platforms with just a few clicks. Seamlessly integrate with your existing systems.</p>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="video-container rounded-4 overflow-hidden">
+                    <video autoplay loop muted playsinline class="img-fluid">
+                        <source src="assets/img/deploy.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 3: Monitor Results -->
+        <div class="row gx-5 align-items-center mb-5">
+            <div class="col-lg-6">
+                <h2 class="display-4 lh-1 mb-4">03</h2>
+                <h3 class="font-alt mb-3">Monitor Results</h3>
+                <p class="lead fw-normal text-muted mb-5">Track your AI agent's performance in real-time. Get insights into user interactions, response times, and success rates to optimize your automation.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="video-container rounded-4 overflow-hidden">
+                    <video autoplay loop muted playsinline class="img-fluid">
+                        <source src="assets/img/mointer.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- App features section-->
+        <section id="features">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+                        <div class="container-fluid px-5">
+                            <div class="row gx-5">
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-cpu icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">AI Agent Creation</h3>
+                                        <p class="text-muted mb-0">Design AI agents tailored to your specific business requirements with ease.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-cloud-upload icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Effortless Deployment</h3>
+                                        <p class="text-muted mb-0">Deploy your AI agents quickly and efficiently with minimal effort.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-5 mb-md-0">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Cost-Effective</h3>
+                                        <p class="text-muted mb-0">Our platform offers competitive pricing to maximize your ROI.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Secure and Reliable</h3>
+                                        <p class="text-muted mb-0">Built with security and reliability at its core, ensuring peace of mind.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-0">
+                        <!-- Features section device mockup-->
+                        <div class="features-device-mockup">
+                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                        <stop class="gradient-start-color" offset="0%"></stop>
+                                        <stop class="gradient-end-color" offset="100%"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="50"></circle></svg
+                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
+                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
+                            <div class="device-wrapper">
+                                <img src="assets/img/cta.png" alt="CTA Image" class="img-fluid position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 80%; z-index: 1;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+</section>
+
+
+<section class="py-5 bg-light">
+    <div class="container px-5">
+        <div class="row gx-5 justify-content-center mb-5">
+            <div class="col-lg-8 text-center">
+                <h2 class="font-alt mb-4">Customer Success Stories</h2>
+                <p class="lead fw-normal text-muted mb-5">See how businesses are transforming with our AI agents</p>
+            </div>
+        </div>
+
+        <div class="row gx-5">
+        
+
+            <!-- Influencer Review -->
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="assets/img/marcus.png" alt="Marcus" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div>
+                                <h5 class="font-alt mb-1">Marcus Chen</h5>
+                                <p class="text-muted mb-0 small">Fitness Influencer</p>
+                            </div>
+                        </div>
+                        <p class="text-muted mb-4">"My AI agent manages DMs across Instagram and Facebook, qualifying leads and booking consultations. Conversion rates jumped from 12% to 28% since implementation!"</p>
+                        <div class="d-flex align-items-center">
+                            <div class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <span class="ms-2 text-muted small">1 month ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="assets/img/emma.jpg" alt="Emma" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div>
+                                <h5 class="font-alt mb-1">Emma Rodriguez</h5>
+                                <p class="text-muted mb-0 small">Community Manager</p>
+                            </div>
+                        </div>
+                        <p class="text-muted mb-4">"Managing a 10K+ Discord community became effortless. The AI moderates content, answers FAQs, and engages members 24/7. Member satisfaction is up by 60%!"</p>
+                        <div class="d-flex align-items-center">
+                            <div class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <span class="ms-2 text-muted small">3 months ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="assets/img/sophia.jpg" alt="Sophia" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div>
+                                <h5 class="font-alt mb-1">Sophia Lee</h5>
+                                <p class="text-muted mb-0 small">Creator</p>
+                            </div>
+                        </div>
+                        <p class="text-muted mb-4">"The AI manages my brand partnerships and fan engagement. Engagement rates doubled, and I've seen a 90% increase in successful brand collaborations!"</p>
+                        <div class="d-flex align-items-center">
+                            <div class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <span class="ms-2 text-muted small">2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+           <!-- API Integration Section -->
+           <section class="api-section py-5">
+            <div class="container px-5">
+                <div class="text-center mb-5">
+                    <h2 class="display-4 fw-bold mb-4">Create the Best Agent For Your Business </h2>
+                    <h3 class="h2 mb-5">Start Now</h3>
+                </div>
+                <div class="api-image-container position-relative">
+                    <div class="api-image-wrapper">
+                        <img src="assets/img/overview.png" alt="API Documentation" class="img-fluid rounded-4">
+                    </div>
+                    <div class="api-overlay-text position-absolute start-50 translate-middle-x bottom-0 text-center pb-5 px-3">
+                        <p class="h3 text-white mb-0">Whether you're an influencer or a business owner</p>
+                        <p class="h3 text-white">We got you covered</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action section-->
+        <section class="cta" style="background: url('assets/img/home.png') no-repeat center center; background-size: cover;">
+            <div class="cta-content">
+                <div class="container px-5">
+                    <h2 class="text-white display-1 lh-1 mb-4">
+                        Don't Wait.
+                        <br />
+                        Innovate Now.
+                    </h2>
+                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://solutions.tixaeagents.ai/eu/prototype/nhxcjza5hhmlkwli" target="_blank">Get Started for Free</a>
+                </div>
+            </div>
+        </section>
+        <!-- App badge section-->
+      
+        <!-- Footer-->
+        <footer class="bg-black text-center py-5">
+            <div class="container px-5">
+                <div class="text-white-50 small">
+                    <div class="mb-2">&copy; AI Agent Platform 2024. All Rights Reserved.</div>
+                    <a href="#!">Privacy Policy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="#!">Terms of Service</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="#!">Help Center</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Feedback Modal-->
+        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                        <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Get in Touch</h5>
+                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body border-0 p-4">
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full Name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email Address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone Number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <!-- Submit success message-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    We will get back to you shortly.
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-bubbles">
+            <a href="https://www.facebook.com/messages/t/404086879465427" target="_blank" class="chat-bubble bubble-facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/direct/t/17849319509771278" target="_blank" class="chat-bubble bubble-instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://discord.com/channels/1300513381584998490/1300514154624585761" target="_blank" class="chat-bubble bubble-discord">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="javascript:void(0)" class="chat-bubble bubble-whatsapp" onclick="window.showQRWidget()">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://solutions.tixaeagents.ai/eu/prototype/nhxcjza5hhmlkwli" target="_blank" class="chat-bubble bubble-webchat">
+                <i class="fas fa-globe"></i>
+            </a>
+            <a href="tel:+1234567890" class="chat-bubble bubble-phone">
+                <i class="fas fa-phone"></i>
+            </a>
+            <a href="mailto:sautomind@gmail.com" class="chat-bubble bubble-email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://telegram.org" target="_blank" class="chat-bubble bubble-telegram">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+        </div>
+
+        <!-- Add this after the chat-bubbles div -->
+        <div id="whatsappQRWidget" class="qr-widget">
+            <div class="qr-content">
+                <div class="qr-header">
+                    <h3>Scan QR Code to Chat on WhatsApp</h3>
+                    <button class="close-qr" onclick="closeQRWidget()">&times;</button>
+                </div>
+                <img src="assets/img/j.jpg" alt="WhatsApp QR Code" class="qr-image">
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const bubbles = document.querySelectorAll('.chat-bubble');
+                
+                // Delay the appearance slightly to ensure the page has loaded
+                setTimeout(() => {
+                    bubbles.forEach(bubble => {
+                        bubble.classList.add('show');
+                    });
+                }, 500); // 500ms delay before showing the bubbles
+            });
+        </script>
+
+        <script>
+            window.addEventListener('DOMContentLoaded', event => {
+                var navbarShrink = function () {
+                    const navbarCollapsible = document.body.querySelector('#mainNav');
+                    if (!navbarCollapsible) {
+                        return;
+                    }
+                    if (window.scrollY === 0) {
+                        navbarCollapsible.classList.remove('navbar-shrink')
+                    } else {
+                        navbarCollapsible.classList.add('navbar-shrink')
+                    }
+                };
+
+                // Shrink the navbar 
+                navbarShrink();
+
+                // Shrink the navbar when page is scrolled
+                document.addEventListener('scroll', navbarShrink);
+            });
+        </script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts.js"></script>
+    
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const icons = document.querySelectorAll('.business-model-icon');
+            const chatWidgetSection = document.getElementById('chatWidgetSection');
+            const chatWidgetTitle = document.getElementById('chatWidgetTitle');
+            const chatMessages = document.getElementById('chatMessages');
+            const userInput = document.getElementById('userInput');
+            const sendMessage = document.getElementById('sendMessage');
+            const bubbles = document.querySelectorAll('.chat-bubble');
+        });
+
+        
+        
+        </script>
+
+    
+        <!-- Update the widget container -->
+        <div id="VG_OVERLAY_CONTAINER"></div>
+
+        <!-- Update the TIXAE Agents configuration script -->
+        <script>
+            (function() {
+                window.VG_CONFIG = {
+                    ID: "nhxcjza5hhmlkwli",
+                    region: 'eu',
+                    render: 'bottom-right', // Changed from 'full-width' to 'bottom-right'
+                    stylesheets: [
+                        "https://vg-bunny-cdn.b-cdn.net/vg_live_build/styles.css"
+                    ]
+                }
+                var VG_SCRIPT = document.createElement("script");
+                VG_SCRIPT.src = "https://vg-bunny-cdn.b-cdn.net/vg_live_build/vg_bundle.js";
+                VG_SCRIPT.defer = true;
+                document.body.appendChild(VG_SCRIPT);
+            })();
+
+            // Updated toggle function
+            function toggleChatWidget() {
+                const chatContainer = document.querySelector('.vg-container');
+                if (chatContainer) {
+                    if (window.getComputedStyle(chatContainer).display === 'none') {
+                        chatContainer.style.display = 'block';
+                        chatContainer.style.position = 'fixed';
+                        chatContainer.style.right = '80px';
+                        chatContainer.style.bottom = '20px';
+                        chatContainer.style.width = '400px';
+                        chatContainer.style.height = '600px';
+                        chatContainer.style.zIndex = '1000';
+                    } else {
+                        chatContainer.style.display = 'none';
+                    }
+                } else {
+                    console.log('Chat container not found');
+                }
+            }
+        </script>
+
+      
+        <!-- Basic features section-->
+
+    
+    </body>
+</html>
