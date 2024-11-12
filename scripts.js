@@ -419,7 +419,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     newImage = 'influencer.png';
                     break;
                 case 'community':
-                    newImage = 'community.png';
+                    newImage = 'community.jpg';
                     break;
                 case 'tiktok':
                     newImage = 'tiktok.png';
