@@ -17,13 +17,13 @@ function getAssetPath(filename) {
 const videoSources = {
     create: getAssetPath('Create.mp4'),
     mointer: getAssetPath('mointer.mp4'),
-    deploy: getAssetPath('Deploy.mp4')
+    deploy: getAssetPath('deploy.mp4')
 };
 
 const imageUrls = {
     dropshippers: getAssetPath('dropshippers.png'),
     influencerchat: getAssetPath('influencerchat.jpg'),
-    influencer: getAssetPath('influencer.png')
+    influencer: getAssetPath('influencer.jpg')
 };
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -423,7 +423,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     newImage = 'community.jpg';
                     break;
                 case 'tiktok':
-                    newImage = 'tiktok.png';
+                
                     break;
                 default:
                     newImage = 'dropshippers.jpg';
