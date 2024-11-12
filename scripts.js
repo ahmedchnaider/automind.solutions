@@ -450,7 +450,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const logo = document.getElementById('navbar-logo');
     if (logo) {
         const originalSrc = 'assets/img/logo.png';
-        const hoverSrc = 'assets/img/logo2.png';
+        const hoverSrc = 'assets/img/logo2.jpg';
         
         logo.addEventListener('mouseenter', function() {
             this.src = hoverSrc;
