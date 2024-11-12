@@ -331,7 +331,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>Hi there! I'm Lily Summers AI, your Lifestyle Influencer. do you want to get a phone call from me?</p>
                         <div class="carousel-container mt-3 mb-3">
                             <div class="message-carousel">
-                                <img src="assets/img/influencerchat.PNG" alt="Influencer Marketing" class="carousel-image">
+                                <img src="assets/img/influencerchat.png" alt="Influencer Marketing" class="carousel-image">
                                 
                             </div>
                         </div>
