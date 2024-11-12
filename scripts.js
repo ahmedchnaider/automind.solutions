@@ -413,10 +413,10 @@ document.addEventListener('DOMContentLoaded', function() {
             let newImage;
             switch(modelType) {
                 case 'themepages':
-                    newImage = 'themepages.png';
+                    newImage = 'themepages.jpg';
                     break;
                 case 'influencer':
-                    newImage = 'influencer.png';
+                    newImage = 'influencer.jpg';
                     break;
                 case 'community':
                     newImage = 'community.jpg';
@@ -425,7 +425,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     newImage = 'tiktok.png';
                     break;
                 default:
-                    newImage = 'dropshippers.png';
+                    newImage = 'dropshippers.jpg';
             }
             chatDemo.style.background = `url('assets/img/${newImage}') no-repeat center center`;
             chatDemo.style.backgroundSize = 'cover';
