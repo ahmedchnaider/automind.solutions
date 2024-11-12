@@ -645,9 +645,7 @@ img.img-fluid {
   width: 100%;
 }
 
-.logo-image {
-  transition: all 0.3s ease;
-}
+
 .cta {
   position: relative;
   padding: 15rem 0;
