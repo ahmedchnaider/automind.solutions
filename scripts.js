@@ -21,7 +21,7 @@ const videoSources = {
 };
 
 const imageUrls = {
-    dropshippers: getAssetPath('dropshippers.png'),
+   
     influencerchat: getAssetPath('influencerchat.jpg'),
     influencer: getAssetPath('influencer.jpg')
 };
