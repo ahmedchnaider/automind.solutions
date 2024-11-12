@@ -976,9 +976,7 @@
     color: var(--bs-navbar-brand-hover-color);
   }
   
-  .navbar-brand:hover img {
-    content: url("assets/img/logo2.jpg") !important;
-  }
+ 
   
   #logo {
     height: 45px;
